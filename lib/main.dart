@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:my_first_layout/widgets/FavoriteWidget.dart';
-import 'package:my_first_layout/widgets/buttom_section.dart';
+import 'package:my_first_layout/widgets/my_snackbar.dart';
 import 'package:my_first_layout/widgets/text_section.dart';
 import 'package:my_first_layout/widgets/title_section.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
               fit: BoxFit.cover,            
             ),
             titleSection,
-           const  ButtomSection(),
+            const SnackBarPage(),
             textSection,
           ],
         ),
